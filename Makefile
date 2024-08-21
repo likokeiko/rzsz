@@ -1,7 +1,7 @@
 # Makefile for Unix/Xenix rz and sz programs
 # Some targets may not be up to date
-CC=cc
-OFLAG= -O
+CC=aarch64-v01c01-linux-gnu-gcc
+OFLAG=-O -DREGISTERED
 
 
 nothing:
